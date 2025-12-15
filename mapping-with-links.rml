@@ -1,11 +1,11 @@
-@prefix rr: <http://www.w3.org/ns/r2rml#>.
+F@prefix rr: <http://www.w3.org/ns/r2rml#>.
 @prefix rml: <http://semweb.mmlab.be/ns/rml#>.
 @prefix ql: <http://semweb.mmlab.be/ns/ql#>.
 @prefix schema: <https://schema.org/>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix wgs84_pos: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
 @prefix vocab: <http://example.org#>.
-@base <http://example.com/ns#>.
+BASE <http://example.com/ns#>
 
 <#AccidenteMap> a rr:TriplesMap;
   rml:logicalSource [
@@ -171,3 +171,4 @@
       rr:termType rr:IRI
     ]
   ] .
+
